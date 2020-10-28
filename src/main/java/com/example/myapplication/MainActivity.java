@@ -262,27 +262,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     text.setText(str);
                 }
                 break;
-            /*case R.id.btn_leftbra:
-                if (str.length()==1){
-                    str="(";
-                }
-                else if(!str.contains("+")&&!str.contains("-")&&!str.contains("×")&&!str.contains("÷")){
-                    str="("+str;
-                }
-                else {
-                    str += "(";
-                }
-                text.setText(str);
-                break;*/
-          /*  case R.id.btn_rightbra:
-                if (str.length()==1){
-                    str="0";
-                }
-                else {
-                    str += ")";
-                }
-                text.setText(str);
-                break;*/
             case R.id.btn_equ:
                 if(str.charAt(0)=='-'){
 
